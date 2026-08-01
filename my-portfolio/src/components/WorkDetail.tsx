@@ -64,29 +64,29 @@ export default function workDetail(){
 
                 <div className="wd-tech-grid">
                     {work.techPoints &&(
-                        <section title="こだわった技術ポイント">
+                        <Section title="こだわった技術ポイント">
                             <p className="wd-text">{work.techPoints}</p>
-                        </section>
+                        </Section>
                     )}
                      {work.techPoints &&(
-                        <section title="設計上の工夫">
+                        <Section title="設計上の工夫">
                             <p className="wd-text">{work.designNotes}</p>
-                        </section>
+                        </Section>
                     )}
                      {work.techPoints &&(
-                        <section title="実装解説">
+                        <Section title="実装解説">
                             <p className="wd-text">{work.implementationTheme}</p>
-                        </section>
+                        </Section>
                     )}
                      {work.techPoints &&(
-                        <section title="詰まった問題と解決策">
+                        <Section title="詰まった問題と解決策">
                             <p className="wd-text">{work.troublesooting}</p>
-                        </section>
+                        </Section>
                     )}
                      {work.techPoints &&(
-                        <section title="パフォーマンス">
+                        <Section title="パフォーマンス">
                             <p className="wd-text">{work.performance}</p>
-                        </section>
+                        </Section>
                     )}
                 </div>
 

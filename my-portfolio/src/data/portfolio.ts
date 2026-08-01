@@ -11,7 +11,7 @@ export interface Profile
     avater: string 
     links:{
         github:string
-        twitter:string
+        twitter:string|null
         email:string
     }
 }
