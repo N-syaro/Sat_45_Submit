@@ -52,7 +52,7 @@ export default function workDetail(){
                     </div>
                 </div>
 
-                <section  title="基本情報">
+                <Section  title="基本情報">
                     <dl className="wd-meta-grid">
                         <MetaRow label="製作期間" value={work.period}/>
                         <MetaRow label="チーム構成" value={work.team}/>
@@ -60,7 +60,7 @@ export default function workDetail(){
                         <MetaRow label="プラットフォーム" 
                              value={work.platfrom?.join(' / ')}/>
                     </dl>
-                </section>
+                </Section>
 
                 <div className="wd-tech-grid">
                     {work.techPoints &&(
