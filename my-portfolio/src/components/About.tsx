@@ -22,7 +22,7 @@ export default function About(){
                             
                             <div className="profile-school-row">
                                 <dt>学科</dt>
-                                <dd>{profile.school}</dd>
+                                <dd>{profile.department}</dd>
                             </div>
 
                             <div className="profile-school-row">
