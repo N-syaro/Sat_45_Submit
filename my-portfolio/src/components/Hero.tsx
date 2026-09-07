@@ -4,7 +4,7 @@ export default function Hero(){
     return(
         <section className="hero section" id = "hero">
             <div className="container">
-                <div className="avatar-placeholder">T</div>
+                <div className="avatar-placeholder">N.K</div>
                 <p className="hero-eyebrow">Portfolio</p>
 
                 <h1 className="hero-name">
