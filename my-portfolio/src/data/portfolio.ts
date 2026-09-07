@@ -180,7 +180,7 @@ export const works:Work[] = [{
     genre: "2Dノベル＆シューティングゲーム",
     category: "game",
     thumbnail: "",
-    screenshots: [],
+    screenshots: ["Shindan.jpg"],
     description: "Unityで制作した2Dノベルゲームとシューティングゲームが織り交ざったゲーム",
     tags: ["Unity"],
     platfrom: ["Windows"],
